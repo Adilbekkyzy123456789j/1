@@ -3,14 +3,9 @@ package atm.service.impl;
 import atm.dao.AccountDao;
 import atm.model.UserAccount;
 import atm.service.AccountService;
-import javax.swing.*;
-import java.awt.Color;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.stream.Stream;
+
 
 public class AccountServiceImpl implements AccountService {
     private final AccountDao accountDao = new AccountDao();
