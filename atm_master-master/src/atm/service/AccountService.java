@@ -13,5 +13,4 @@ public interface AccountService {
     void sendToFriend(String friendCardNumber);
 
     void withdrawMoney(int amount);
-
 }

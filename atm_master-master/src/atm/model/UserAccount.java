@@ -9,7 +9,6 @@ public class UserAccount {
 
     public UserAccount() {
     }
-
     public UserAccount(String name, String lastName, String cardNumber, String pinCode, int balance) {
         this.name = name;
         this.lastName = lastName;

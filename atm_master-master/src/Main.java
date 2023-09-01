@@ -8,7 +8,9 @@ public class Main {
         AccountService accountService = new AccountServiceImpl();
         accountService.singUp("Zeynep", "Adilbek kyzy");
         accountService.singUp("Iskander", "Askarov");
-        while (true)
-            accountService.singIn("Zeynep","Adilbekkyzy");
+
+        while (true){
+            accountService.singIn("Zeynep","Adilbek kyzy");
+        }
     }
 }
