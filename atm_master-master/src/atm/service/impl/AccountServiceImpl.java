@@ -63,9 +63,6 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public void singIn(String cardNumber, String pinCode) {
-
-        //  for (UserAccount userAccount : accountDao.getUserAccounts()) {
-        //      if (cardNumber.equals(userAccount.getCardNumber()) && pinCode.equals(userAccount.getPinCode())) {
         while (true) {
             System.out.println(Color.ANSI_PURPLE + "Введите имя польователя:");
             String nameFirst = scanner.next();
