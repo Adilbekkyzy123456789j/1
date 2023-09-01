@@ -6,7 +6,6 @@ import atm.service.AccountService;
 import java.util.Random;
 import java.util.Scanner;
 
-
 public class AccountServiceImpl implements AccountService {
     private final AccountDao accountDao = new AccountDao();
     private final Random random = new Random();
